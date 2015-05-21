@@ -1,0 +1,26 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst ADCinterface_qsys.ADCinterface_0 -pg 1 -lvl 3 -y 50
+preplace inst ADCinterface_qsys -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst ADCinterface_qsys.master_0.b2p_adapter -pg 1
+preplace inst ADCinterface_qsys.master_0.p2b -pg 1
+preplace inst ADCinterface_qsys.master_0.timing_adt -pg 1
+preplace inst ADCinterface_qsys.master_0.transacto -pg 1
+preplace inst ADCinterface_qsys.master_0.fifo -pg 1
+preplace inst ADCinterface_qsys.master_0.p2b_adapter -pg 1
+preplace inst ADCinterface_qsys.master_0.jtag_phy_embedded_in_jtag_master -pg 1
+preplace inst ADCinterface_qsys.master_0 -pg 1 -lvl 2 -y 160
+preplace inst ADCinterface_qsys.master_0.clk_rst -pg 1
+preplace inst ADCinterface_qsys.master_0.b2p -pg 1
+preplace inst ADCinterface_qsys.master_0.clk_src -pg 1
+preplace inst ADCinterface_qsys.clk_0 -pg 1 -lvl 1 -y 50
+preplace netloc EXPORT<net_container>ADCinterface_qsys</net_container>(SLAVE)ADCinterface_0.ADC_Interface,(SLAVE)ADCinterface_qsys.adc_interface) 1 0 3 NJ 120 NJ 120 NJ
+preplace netloc POINT_TO_POINT<net_container>ADCinterface_qsys</net_container>(MASTER)master_0.master,(SLAVE)ADCinterface_0.avalon_slave_0) 1 2 1 670
+preplace netloc EXPORT<net_container>ADCinterface_qsys</net_container>(SLAVE)ADCinterface_qsys.leds,(SLAVE)ADCinterface_0.LEDs) 1 0 3 NJ 290 NJ 290 NJ
+preplace netloc EXPORT<net_container>ADCinterface_qsys</net_container>(SLAVE)ADCinterface_0.ADC_DataAndClock,(SLAVE)ADCinterface_qsys.adc_dataandclock) 1 0 3 NJ 40 NJ 60 NJ
+preplace netloc EXPORT<net_container>ADCinterface_qsys</net_container>(SLAVE)ADCinterface_qsys.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>ADCinterface_qsys</net_container>(SLAVE)ADCinterface_0.clock_sink,(SLAVE)master_0.clk,(MASTER)clk_0.clk) 1 1 2 370 250 710
+preplace netloc EXPORT<net_container>ADCinterface_qsys</net_container>(SLAVE)ADCinterface_0.ButtonsAndSwitches,(SLAVE)ADCinterface_qsys.buttonsandswitches) 1 0 3 NJ 270 NJ 270 NJ
+preplace netloc INTERCONNECT<net_container>ADCinterface_qsys</net_container>(SLAVE)master_0.clk_reset,(MASTER)master_0.master_reset,(MASTER)clk_0.clk_reset,(SLAVE)ADCinterface_0.reset_sink,(SLAVE)clk_0.clk_in_reset) 1 0 3 150 140 350 310 730
+levelinfo -pg 1 0 120 920
+levelinfo -hier ADCinterface_qsys 130 180 470 760 910

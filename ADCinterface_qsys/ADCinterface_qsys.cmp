@@ -1,0 +1,35 @@
+	component ADCinterface_qsys is
+		port (
+			adc_dataandclock_adc_data : in  std_logic_vector(7 downto 0) := (others => 'X'); -- adc_data
+			adc_dataandclock_adc_clk  : in  std_logic                    := 'X';             -- adc_clk
+			adc_interface_adc_csbn    : out std_logic;                                       -- adc_csbn
+			adc_interface_adc_sdio    : out std_logic;                                       -- adc_sdio
+			adc_interface_adc_sclk    : out std_logic;                                       -- adc_sclk
+			adc_interface_adc_oen     : out std_logic;                                       -- adc_oen
+			adc_interface_adc_sdon    : out std_logic;                                       -- adc_sdon
+			adc_interface_cha_3p5     : out std_logic;                                       -- cha_3p5
+			adc_interface_cha_2x      : out std_logic;                                       -- cha_2x
+			adc_interface_cha_8p5x    : out std_logic;                                       -- cha_8p5x
+			adc_interface_cha_in1     : out std_logic;                                       -- cha_in1
+			adc_interface_cha_in3     : out std_logic;                                       -- cha_in3
+			adc_interface_cha_en      : out std_logic;                                       -- cha_en
+			adc_interface_cha_in4     : out std_logic;                                       -- cha_in4
+			adc_interface_mon_fs      : out std_logic;                                       -- mon_fs
+			adc_interface_mon_en      : out std_logic;                                       -- mon_en
+			adc_interface_chb_en      : out std_logic;                                       -- chb_en
+			adc_interface_chb_in2     : out std_logic;                                       -- chb_in2
+			adc_interface_chb_in1     : out std_logic;                                       -- chb_in1
+			adc_interface_chb_in4     : out std_logic;                                       -- chb_in4
+			adc_interface_chb_3p5x    : out std_logic;                                       -- chb_3p5x
+			adc_interface_chb_2x      : out std_logic;                                       -- chb_2x
+			adc_interface_chb_8p5x    : out std_logic;                                       -- chb_8p5x
+			buttonsandswitches_b1     : in  std_logic                    := 'X';             -- b1
+			buttonsandswitches_b2     : in  std_logic                    := 'X';             -- b2
+			buttonsandswitches_sw1    : in  std_logic                    := 'X';             -- sw1
+			buttonsandswitches_sw2    : in  std_logic                    := 'X';             -- sw2
+			buttonsandswitches_sw3    : in  std_logic                    := 'X';             -- sw3
+			clk_clk                   : in  std_logic                    := 'X';             -- clk
+			leds_led                  : out std_logic_vector(7 downto 0)                     -- led
+		);
+	end component ADCinterface_qsys;
+
