@@ -49,17 +49,21 @@ module ADCinterface(
 		//
 		// 0: Write value to LEDs
 		// 1: Enable ADC (0: ADC off, 1: ADC on)
-		// 2: Channel enable (0: none, 1: channel A, 2: channel B, 3: Channel A and B)
-		// 3: Channel A gain select (0: 2x, 1: 3.5x, 2: 8.5x)
-		// 4: Channel B gain select (0: 2x, 1: 3.5x, 2: 8.5x)
-		// 5: Enable onboard signal generator (0: Sig gen off, 1: Sig gen on)
-		// 6: Set onboard signal generator frequency (0: 2.5 MHz, 1: 5 MHz)
-		// 7: 0 - Display register values on LEDs, 1 - Display ADC values on LEDs
+		// 2: Read ADC channel A data (read only register)
+		// 3: Read ADC channel B data (read only register)
+		// 4: Channel A gain select (0: 2x, 1: 3.5x, 2: 8.5x)
+		// 5: Channel B gain select (0: 2x, 1: 3.5x, 2: 8.5x)
+		// 6: Enable onboard signal generator (0: Sig gen off, 1: Sig gen on)
+		// 7: Set onboard signal generator frequency (0: 2.5 MHz, 1: 5 MHz)
+		// 8: 0 - Display register values on LEDs
+		//    1 - Display ADC channel A values on LEDs
+		//    2 - Display ADC channel B values on LEDs
 		
 		reg [7:0] mem[0:14];
 		
 		reg [7:0] led_tmp;
-		reg [7:0] adc_tmp;
+		reg [7:0] adc_cha_tmp, adc_chb_tmp;
+		reg [7:0] mem_null;
 
 		
 		reg [21:0] clk_divide = 0;
@@ -74,9 +78,16 @@ module ADCinterface(
 			end
 		end
 		
-		always @(posedge clk_divide)
+		always @(posedge DCO)
 		begin
-			adc_tmp <= ~D[7:0];
+			adc_cha_tmp <= ~D[7:0];
+			mem[2] <= D[7:0];
+		end
+		
+		always @(negedge DCO)
+		begin
+			adc_chb_tmp <= ~D[7:0];
+			mem[3] <= D[7:0];
 		end
 		
 		// Avalon-MM interface
@@ -87,7 +98,18 @@ module ADCinterface(
 			else
 				readdata <= 8'b0;
 			if (write)
-				mem[address] <= writedata;
+				case (address)
+					0: mem[0] <= writedata;
+					1: mem[1] <= writedata;
+					2: mem_null <= writedata;
+					3: mem_null <= writedata;
+					4: mem[4] <= writedata;
+					5: mem[5] <= writedata;
+					6: mem[6] <= writedata;
+					7: mem[7] <= writedata;
+					8: mem[8] <= writedata;
+					default: mem_null <= writedata;
+				endcase
 		end
 				
 		
@@ -121,32 +143,12 @@ module ADCinterface(
 			ADC_OEn <= ~mem[1];
 			
 			// Set channel enable (active low)
-			case (mem[2])
-				0: begin
-						CHA_EN <= 1;
-						CHB_EN <= 1;
-				   end
-				1: begin
-						CHA_EN <= 0;
-						CHB_EN <= 1;
-				   end
-				2: begin
-						CHA_EN <= 1;
-						CHB_EN <= 0;
-				   end
-				3: begin
-						CHA_EN <= 0;
-						CHB_EN <= 0;
-				   end
-				default: begin
-							CHA_EN <= 0;
-							CHB_EN <= 1;
-						 end
-			endcase
+			CHA_EN <= 0;
+			CHB_EN <= 0;
 			
 			// Set input MUX to select the proper gain amplifier (active low)
 			
-			case (mem[3])
+			case (mem[4])
 				0: begin
 						CHA_IN1 <= 1;  // CHA_GAIN8P5X
 						CHA_IN3 <= 0;  // CHA_GAIN2X
@@ -169,7 +171,7 @@ module ADCinterface(
 						 end
 			endcase
 			
-			case (mem[4])
+			case (mem[5])
 				0: begin
 						CHB_IN1 <= 1;  // CHB_GAIN3P5X
 						CHB_IN2 <= 0;  // CHB_GAIN2X
@@ -193,12 +195,13 @@ module ADCinterface(
 			endcase				
 			
 			// Set MON_EN (active high) and MON_FS (1: F1, 0: F0)
-			MON_EN <= mem[5];
-			MON_FS <= mem[6];
+			MON_EN <= mem[6];
+			MON_FS <= mem[7];
 		
-			case (mem[7])
+			case (mem[8])
 				0: led <= led_tmp;
-				1: led <= adc_tmp;
+				1: led <= adc_cha_tmp;
+				2: led <= adc_chb_tmp;
 				default: led <= led_tmp;
 			endcase
 		end

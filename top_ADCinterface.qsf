@@ -60,4 +60,74 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_global_assignment -name QIP_FILE ADCinterface_qsys/synthesis/ADCinterface_qsys.qip
 set_global_assignment -name BDF_FILE top_ADCinterface.bdf
+set_location_assignment PIN_N16 -to adc_dataandclock_adc_clk
+set_instance_assignment -name IO_STANDARD LVDS -to adc_dataandclock_adc_clk
+set_location_assignment PIN_M16 -to "adc_dataandclock_adc_clk(n)"
+set_location_assignment PIN_T18 -to adc_dataandclock_adc_data[7]
+set_instance_assignment -name IO_STANDARD LVDS -to adc_dataandclock_adc_data[7]
+set_location_assignment PIN_T17 -to "adc_dataandclock_adc_data[7](n)"
+set_location_assignment PIN_L19 -to adc_dataandclock_adc_data[6]
+set_instance_assignment -name IO_STANDARD LVDS -to adc_dataandclock_adc_data[6]
+set_location_assignment PIN_L18 -to "adc_dataandclock_adc_data[6](n)"
+set_location_assignment PIN_K17 -to adc_dataandclock_adc_data[5]
+set_instance_assignment -name IO_STANDARD LVDS -to adc_dataandclock_adc_data[5]
+set_location_assignment PIN_L17 -to "adc_dataandclock_adc_data[5](n)"
+set_location_assignment PIN_N19 -to adc_dataandclock_adc_data[4]
+set_instance_assignment -name IO_STANDARD LVDS -to adc_dataandclock_adc_data[4]
+set_location_assignment PIN_M18 -to "adc_dataandclock_adc_data[4](n)"
+set_location_assignment PIN_U10 -to adc_dataandclock_adc_data[3]
+set_instance_assignment -name IO_STANDARD LVDS -to adc_dataandclock_adc_data[3]
+set_location_assignment PIN_T9 -to "adc_dataandclock_adc_data[3](n)"
+set_location_assignment PIN_R9 -to adc_dataandclock_adc_data[2]
+set_instance_assignment -name IO_STANDARD LVDS -to adc_dataandclock_adc_data[2]
+set_location_assignment PIN_T10 -to "adc_dataandclock_adc_data[2](n)"
+set_location_assignment PIN_U12 -to adc_dataandclock_adc_data[1]
+set_instance_assignment -name IO_STANDARD LVDS -to adc_dataandclock_adc_data[1]
+set_location_assignment PIN_U11 -to "adc_dataandclock_adc_data[1](n)"
+set_location_assignment PIN_R11 -to adc_dataandclock_adc_data[0]
+set_instance_assignment -name IO_STANDARD LVDS -to adc_dataandclock_adc_data[0]
+set_location_assignment PIN_R10 -to "adc_dataandclock_adc_data[0](n)"
+set_location_assignment PIN_R22 -to adc_interface_adc_csbn
+set_location_assignment PIN_P22 -to adc_interface_adc_oen
+set_location_assignment PIN_R16 -to adc_interface_adc_sclk
+set_location_assignment PIN_R21 -to adc_interface_adc_sdio
+set_location_assignment PIN_R17 -to adc_interface_adc_sdon
+set_location_assignment PIN_P8 -to adc_interface_cha_2x
+set_location_assignment PIN_V10 -to adc_interface_cha_3p5
+set_location_assignment PIN_R7 -to adc_interface_cha_8p5x
+set_location_assignment PIN_W9 -to adc_interface_cha_en
+set_location_assignment PIN_P7 -to adc_interface_cha_in1
+set_location_assignment PIN_W8 -to adc_interface_cha_in3
+set_location_assignment PIN_U6 -to adc_interface_cha_in4
+set_location_assignment PIN_AB10 -to adc_interface_chb_2x
+set_location_assignment PIN_P12 -to adc_interface_chb_3p5x
+set_location_assignment PIN_AB11 -to adc_interface_chb_8p5x
+set_location_assignment PIN_AA9 -to adc_interface_chb_en
+set_location_assignment PIN_Y9 -to adc_interface_chb_in1
+set_location_assignment PIN_Y10 -to adc_interface_chb_in2
+set_location_assignment PIN_R12 -to adc_interface_chb_in4
+set_location_assignment PIN_AA10 -to adc_interface_mon_en
+set_location_assignment PIN_AA8 -to adc_interface_mon_fs
+set_location_assignment PIN_H18 -to buttonsandswitches_b1
+set_location_assignment PIN_J18 -to buttonsandswitches_b2
+set_location_assignment PIN_C16 -to buttonsandswitches_sw1
+set_location_assignment PIN_D17 -to buttonsandswitches_sw2
+set_location_assignment PIN_G17 -to buttonsandswitches_sw3
+set_location_assignment PIN_H13 -to clk_clk
+set_location_assignment PIN_Y3 -to leds_led[7]
+set_location_assignment PIN_AA2 -to leds_led[6]
+set_location_assignment PIN_AA1 -to leds_led[5]
+set_location_assignment PIN_W2 -to leds_led[4]
+set_location_assignment PIN_U2 -to leds_led[3]
+set_location_assignment PIN_U1 -to leds_led[2]
+set_location_assignment PIN_N2 -to leds_led[1]
+set_location_assignment PIN_N1 -to leds_led[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds_led[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds_led[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds_led[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds_led[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds_led[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds_led[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds_led[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds_led[0]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

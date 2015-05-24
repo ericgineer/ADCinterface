@@ -1,0 +1,12 @@
+===================================
+5/21/15
+===================================
+
+Initial design
+
+===================================
+5/22/15
+===================================
+
+1) Hard coded CHA_EN and CHB_EN to 0 (always on)
+2) Connected ADC output to the Avalon MM bus (register at address 2)

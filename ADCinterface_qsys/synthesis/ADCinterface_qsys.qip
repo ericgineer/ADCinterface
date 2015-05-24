@@ -2,7 +2,7 @@ set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -
 set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_TOOL_VERSION "14.1"
 set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "ADCinterface_qsys" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../ADCinterface_qsys.sopcinfo"]
-set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name SLD_INFO "QSYS_NAME ADCinterface_qsys HAS_SOPCINFO 1 GENERATION_ID 1432193899"
+set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name SLD_INFO "QSYS_NAME ADCinterface_qsys HAS_SOPCINFO 1 GENERATION_ID 1432350218"
 set_global_assignment -library "ADCinterface_qsys" -name MISC_FILE [file join $::quartus(qip_path) "../ADCinterface_qsys.cmp"]
 set_global_assignment -library "ADCinterface_qsys" -name SLD_FILE [file join $::quartus(qip_path) "ADCinterface_qsys.debuginfo"]
 set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_TARGETED_DEVICE_FAMILY "Cyclone V"
@@ -15,7 +15,7 @@ set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -
 set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_COMPONENT_REPORT_HIERARCHY "On"
 set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_COMPONENT_INTERNAL "Off"
 set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_COMPONENT_VERSION "MS4w"
-set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTQzMjE5Mzg5OQ==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTQzMjM1MDIxOA==::QXV0byBHRU5FUkFUSU9OX0lE"
 set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ"
 set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NUNFRkEyRjIzQzg=::QXV0byBERVZJQ0U="
 set_global_assignment -entity "ADCinterface_qsys" -library "ADCinterface_qsys" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::OA==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="

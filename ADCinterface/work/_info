@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface
+vADCinterface
+Z1 !s110 1432267834
+!i10b 1
+!s100 n8@b`k8j1n0n^a>gJK84X1
+I_=E=0F;lab<[A=ZMQd2V>0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1432096813
+8C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface/ADCinterface.v
+FC:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface/ADCinterface.v
+L0 5
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1432267834.838000
+!s107 C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface/ADCinterface.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface/ADCinterface.v|
+!i113 1
+Z4 o-work work
+n@a@d@cinterface
+vADCinterface_tb
+R1
+!i10b 1
+!s100 hccM01mEWd=?<EUK2aBOR1
+IgbKbTY@V8mX]@G683>e8L3
+R2
+R0
+w1432095010
+8C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface/ADCinterface_tb.v
+FC:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface/ADCinterface_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1432267834.974000
+!s107 C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface/ADCinterface_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface/ADCinterface_tb.v|
+!i113 1
+R4
+n@a@d@cinterface_tb
