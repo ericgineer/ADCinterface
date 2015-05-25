@@ -10,3 +10,10 @@ Initial design
 
 1) Hard coded CHA_EN and CHB_EN to 0 (always on)
 2) Connected ADC output to the Avalon MM bus (register at address 2)
+
+===================================
+5/25/15
+===================================
+
+1) Channel A and B were flipped. Corrected channel A
+and B selector.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2015.05.22.20:05:06"
- outputDirectory="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/db/ip/sldc8f641fe/">
+ date="2015.05.23.23:01:03"
+ outputDirectory="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/db/ip/sldc8f641fe/">
  <perimeter>
   <parameter
      name="DESIGN_HASH"
@@ -81,24 +81,24 @@
   <parameter name="MIRROR" value="0" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/db/ip/sldc8f641fe/alt_sld_fab.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/db/ip/sldc8f641fe/alt_sld_fab.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/db/ip/sldc8f641fe/submodules/alt_sld_fab_presplit.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/db/ip/sldc8f641fe/submodules/alt_sld_fab_presplit.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/db/ip/sldc8f641fe/submodules/alt_sld_fab_splitter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/db/ip/sldc8f641fe/submodules/alt_sld_fab_splitter.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/db/ip/sldc8f641fe/submodules/alt_sld_fab_sldfabric.vhd"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/db/ip/sldc8f641fe/submodules/alt_sld_fab_sldfabric.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/db/ip/sldc8f641fe/submodules/alt_sld_fab_ident.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/db/ip/sldc8f641fe/submodules/alt_sld_fab_ident.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
   </childGeneratedFiles>
@@ -165,7 +165,7 @@
   <parameter name="RECEIVE_WIDTHS" value="26" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/db/ip/sldc8f641fe/submodules/alt_sld_fab_presplit.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/db/ip/sldc8f641fe/submodules/alt_sld_fab_presplit.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
   </generatedFiles>
@@ -195,7 +195,7 @@
   <parameter name="ADD_INTERFACE_ASGN" value="0" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/db/ip/sldc8f641fe/submodules/alt_sld_fab_splitter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/db/ip/sldc8f641fe/submodules/alt_sld_fab_splitter.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
   </generatedFiles>
@@ -234,7 +234,7 @@
   <parameter name="FORCE_IR_CAPTURE_FEATURE" value="1" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/db/ip/sldc8f641fe/submodules/alt_sld_fab_sldfabric.vhd"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/db/ip/sldc8f641fe/submodules/alt_sld_fab_sldfabric.vhd"
        type="VHDL"
        attributes="" />
   </generatedFiles>
@@ -262,7 +262,7 @@
   <parameter name="DESIGN_HASH" value="8e18a2c1b1bdbbf260be" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/db/ip/sldc8f641fe/submodules/alt_sld_fab_ident.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/db/ip/sldc8f641fe/submodules/alt_sld_fab_ident.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
   </generatedFiles>

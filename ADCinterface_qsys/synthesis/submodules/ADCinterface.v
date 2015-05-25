@@ -64,27 +64,14 @@ module ADCinterface(
 		reg [7:0] led_tmp;
 		reg [7:0] adc_cha_tmp, adc_chb_tmp;
 		reg [7:0] mem_null;
-
 		
-		reg [21:0] clk_divide = 0;
-		reg clk_new = 0;
-						
-		always @(posedge DCO)
-		begin
-			clk_divide <= clk_divide + 1;
-			if (clk_divide <= 0)
-			begin
-				clk_new <= ~clk_new;
-			end
-		end
-		
-		always @(posedge DCO)
+		always @(negedge DCO)
 		begin
 			adc_cha_tmp <= ~D[7:0];
 			mem[2] <= D[7:0];
 		end
 		
-		always @(negedge DCO)
+ 		always @(posedge DCO)
 		begin
 			adc_chb_tmp <= ~D[7:0];
 			mem[3] <= D[7:0];

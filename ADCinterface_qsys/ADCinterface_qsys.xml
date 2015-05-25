@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2015.05.22.20:03:47"
- outputDirectory="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/">
+ date="2015.05.23.22:54:35"
+ outputDirectory="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -197,13 +197,13 @@
  </perimeter>
  <entity
    path=""
-   parameterizationKey="ADCinterface_qsys:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CEFA2F23C8,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=8,AUTO_GENERATION_ID=1432350218,AUTO_UNIQUE_ID=(ADCinterface:1.0:)(clock_source:14.1:clockFrequency=50000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_jtag_avalon_master:14.1:AUTO_DEVICE=5CEFA2F23C8,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=8,COMPONENT_CLOCK=0,FAST_VER=0,FIFO_DEPTHS=2,PLI_PORT=50000,USE_PLI=0(altera_clock_bridge:14.1:DERIVED_CLOCK_RATE=0,EXPLICIT_CLOCK_RATE=0,NUM_CLOCK_OUTPUTS=1)(altera_reset_bridge:14.1:ACTIVE_LOW_RESET=0,AUTO_CLK_CLOCK_RATE=-1,NUM_RESET_OUTPUTS=1,SYNCHRONOUS_EDGES=none,USE_RESET_REQUEST=0)(altera_jtag_dc_streaming:100.99.98.97:COMPONENT_CLOCK=0,DOWNSTREAM_FIFO_SIZE=64,EXPORT_JTAG=0,FABRIC=2.0,MGMT_CHANNEL_WIDTH=-1,PLI_PORT=50000,PURPOSE=1,UPSTREAM_FIFO_SIZE=0,USE_DOWNSTREAM_READY=0,USE_PLI=0)(timing_adapter:14.1:inBitsPerSymbol=8,inChannelWidth=0,inErrorDescriptor=,inErrorWidth=0,inMaxChannel=0,inReadyLatency=0,inSymbolsPerBeat=1,inUseEmpty=false,inUseEmptyPort=NO,inUsePackets=false,inUseReady=false,inUseValid=true,outReadyLatency=0,outUseReady=true,outUseValid=true)(altera_avalon_sc_fifo:14.1:AUTO_DEVICE_FAMILY=Cyclone V,BITS_PER_SYMBOL=8,CHANNEL_WIDTH=0,EMPTY_LATENCY=3,ENABLE_EXPLICIT_MAXCHANNEL=false,ERROR_WIDTH=0,EXPLICIT_MAXCHANNEL=0,FIFO_DEPTH=64,SYMBOLS_PER_BEAT=1,USE_ALMOST_EMPTY_IF=0,USE_ALMOST_FULL_IF=0,USE_FILL_LEVEL=0,USE_MEMORY_BLOCKS=1,USE_PACKETS=0,USE_STORE_FORWARD=0)(altera_avalon_st_bytes_to_packets:14.1:AUTO_CLK_CLOCK_RATE=0,AUTO_DEVICE_FAMILY=Cyclone V,CHANNEL_WIDTH=8,CHANNEL_WIDTH_DERIVED=8,ENCODING=0)(altera_avalon_st_packets_to_bytes:14.1:AUTO_CLK_CLOCK_RATE=0,AUTO_DEVICE_FAMILY=Cyclone V,CHANNEL_WIDTH=8,CHANNEL_WIDTH_DERIVED=8,ENCODING=0)(altera_avalon_packets_to_master:14.1:AUTO_DEVICE_FAMILY=Cyclone V,EXPORT_MASTER_SIGNALS=0,FAST_VER=0,FIFO_DEPTHS=2,FIFO_WIDTHU=1)(channel_adapter:14.1:inBitsPerSymbol=8,inChannelWidth=8,inErrorDescriptor=,inErrorWidth=0,inMaxChannel=255,inReadyLatency=0,inSymbolsPerBeat=1,inUseEmpty=false,inUseEmptyPort=AUTO,inUsePackets=true,inUseReady=true,outChannelWidth=0,outMaxChannel=0)(channel_adapter:14.1:inBitsPerSymbol=8,inChannelWidth=0,inErrorDescriptor=,inErrorWidth=0,inMaxChannel=0,inReadyLatency=0,inSymbolsPerBeat=1,inUseEmpty=false,inUseEmptyPort=AUTO,inUsePackets=true,inUseReady=true,outChannelWidth=8,outMaxChannel=255)(clock:14.1:)(clock:14.1:)(clock:14.1:)(clock:14.1:)(clock:14.1:)(clock:14.1:)(clock:14.1:)(clock:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:))(avalon:14.1:arbitrationPriority=1,baseAddress=0x0000,defaultConnection=false)(clock:14.1:)(clock:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)"
+   parameterizationKey="ADCinterface_qsys:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CEFA2F23C8,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=8,AUTO_GENERATION_ID=1432446863,AUTO_UNIQUE_ID=(ADCinterface:1.0:)(clock_source:14.1:clockFrequency=50000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_jtag_avalon_master:14.1:AUTO_DEVICE=5CEFA2F23C8,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=8,COMPONENT_CLOCK=0,FAST_VER=0,FIFO_DEPTHS=2,PLI_PORT=50000,USE_PLI=0(altera_clock_bridge:14.1:DERIVED_CLOCK_RATE=0,EXPLICIT_CLOCK_RATE=0,NUM_CLOCK_OUTPUTS=1)(altera_reset_bridge:14.1:ACTIVE_LOW_RESET=0,AUTO_CLK_CLOCK_RATE=-1,NUM_RESET_OUTPUTS=1,SYNCHRONOUS_EDGES=none,USE_RESET_REQUEST=0)(altera_jtag_dc_streaming:100.99.98.97:COMPONENT_CLOCK=0,DOWNSTREAM_FIFO_SIZE=64,EXPORT_JTAG=0,FABRIC=2.0,MGMT_CHANNEL_WIDTH=-1,PLI_PORT=50000,PURPOSE=1,UPSTREAM_FIFO_SIZE=0,USE_DOWNSTREAM_READY=0,USE_PLI=0)(timing_adapter:14.1:inBitsPerSymbol=8,inChannelWidth=0,inErrorDescriptor=,inErrorWidth=0,inMaxChannel=0,inReadyLatency=0,inSymbolsPerBeat=1,inUseEmpty=false,inUseEmptyPort=NO,inUsePackets=false,inUseReady=false,inUseValid=true,outReadyLatency=0,outUseReady=true,outUseValid=true)(altera_avalon_sc_fifo:14.1:AUTO_DEVICE_FAMILY=Cyclone V,BITS_PER_SYMBOL=8,CHANNEL_WIDTH=0,EMPTY_LATENCY=3,ENABLE_EXPLICIT_MAXCHANNEL=false,ERROR_WIDTH=0,EXPLICIT_MAXCHANNEL=0,FIFO_DEPTH=64,SYMBOLS_PER_BEAT=1,USE_ALMOST_EMPTY_IF=0,USE_ALMOST_FULL_IF=0,USE_FILL_LEVEL=0,USE_MEMORY_BLOCKS=1,USE_PACKETS=0,USE_STORE_FORWARD=0)(altera_avalon_st_bytes_to_packets:14.1:AUTO_CLK_CLOCK_RATE=0,AUTO_DEVICE_FAMILY=Cyclone V,CHANNEL_WIDTH=8,CHANNEL_WIDTH_DERIVED=8,ENCODING=0)(altera_avalon_st_packets_to_bytes:14.1:AUTO_CLK_CLOCK_RATE=0,AUTO_DEVICE_FAMILY=Cyclone V,CHANNEL_WIDTH=8,CHANNEL_WIDTH_DERIVED=8,ENCODING=0)(altera_avalon_packets_to_master:14.1:AUTO_DEVICE_FAMILY=Cyclone V,EXPORT_MASTER_SIGNALS=0,FAST_VER=0,FIFO_DEPTHS=2,FIFO_WIDTHU=1)(channel_adapter:14.1:inBitsPerSymbol=8,inChannelWidth=8,inErrorDescriptor=,inErrorWidth=0,inMaxChannel=255,inReadyLatency=0,inSymbolsPerBeat=1,inUseEmpty=false,inUseEmptyPort=AUTO,inUsePackets=true,inUseReady=true,outChannelWidth=0,outMaxChannel=0)(channel_adapter:14.1:inBitsPerSymbol=8,inChannelWidth=0,inErrorDescriptor=,inErrorWidth=0,inMaxChannel=0,inReadyLatency=0,inSymbolsPerBeat=1,inUseEmpty=false,inUseEmptyPort=AUTO,inUsePackets=true,inUseReady=true,outChannelWidth=8,outMaxChannel=255)(clock:14.1:)(clock:14.1:)(clock:14.1:)(clock:14.1:)(clock:14.1:)(clock:14.1:)(clock:14.1:)(clock:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:)(avalon_streaming:14.1:))(avalon:14.1:arbitrationPriority=1,baseAddress=0x0000,defaultConnection=false)(clock:14.1:)(clock:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)(reset:14.1:)"
    instancePathKey="ADCinterface_qsys"
    kind="ADCinterface_qsys"
    version="1.0"
    name="ADCinterface_qsys">
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
-  <parameter name="AUTO_GENERATION_ID" value="1432350218" />
+  <parameter name="AUTO_GENERATION_ID" value="1432446863" />
   <parameter name="AUTO_DEVICE" value="5CEFA2F23C8" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
@@ -212,199 +212,199 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="8" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/ADCinterface_qsys.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/ADCinterface_qsys.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface.v"
        type="VERILOG"
        attributes="TOP_LEVEL_FILE" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_jtag_dc_streaming.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_jtag_dc_streaming.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_jtag_sld_node.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_jtag_sld_node.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_jtag_streaming.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_jtag_streaming.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_clock_crosser.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_clock_crosser.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_remover.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_remover.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_inserter.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_inserter.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.sdc"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.sdc"
        type="SDC"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_timing_adt.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_timing_adt.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_sc_fifo.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_sc_fifo.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_bytes_to_packets.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_bytes_to_packets.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_packets_to_bytes.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_packets_to_bytes.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_packets_to_master.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_packets_to_master.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_b2p_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_b2p_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_p2b_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_p2b_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_reset_synchronizer.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.sdc"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_translator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_translator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_translator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_translator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_agent.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_agent.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_agent.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_agent.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router_001.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_new.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_new.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_incr_burst_converter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_incr_burst_converter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_wrap_burst_converter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_wrap_burst_converter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_default_burst_converter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_default_burst_converter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_demux.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_demux.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_mux.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_mux.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_rsp_mux.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_rsp_mux.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_width_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_width_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys.qsys" />
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys.qsys" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_hw.tcl" />
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_hw.tcl" />
    <file
        path="C:/altera/14.1/ip/altera/sopc_builder_ip/altera_jtag_avalon_master/altera_jtag_avalon_master_hw.tcl" />
    <file
@@ -732,21 +732,21 @@
    <message level="Info" culprit="router_001"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_router</b> "<b>router_001</b>"]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 6 starting:altera_merlin_burst_adapter "submodules/altera_merlin_burst_adapter"</message>
    <message level="Info" culprit="ADCinterface_0_avalon_slave_0_burst_adapter"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_burst_adapter</b> "<b>ADCinterface_0_avalon_slave_0_burst_adapter</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv</b>]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v</b>]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 5 starting:altera_merlin_demultiplexer "submodules/ADCinterface_qsys_mm_interconnect_0_cmd_demux"</message>
    <message level="Info" culprit="cmd_demux"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_demux</b>"]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 4 starting:altera_merlin_multiplexer "submodules/ADCinterface_qsys_mm_interconnect_0_cmd_mux"</message>
    <message level="Info" culprit="cmd_mux"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>cmd_mux</b>"]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 2 starting:altera_merlin_multiplexer "submodules/ADCinterface_qsys_mm_interconnect_0_rsp_mux"</message>
    <message level="Info" culprit="rsp_mux"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_mux</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv</b>]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 1 starting:altera_merlin_width_adapter "submodules/altera_merlin_width_adapter"</message>
    <message
        level="Info"
        culprit="ADCinterface_0_avalon_slave_0_rsp_width_adapter"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_width_adapter</b> "<b>ADCinterface_0_avalon_slave_0_rsp_width_adapter</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv</b>]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv</b>]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 24 starting:altera_reset_controller "submodules/altera_reset_controller"</message>
    <message level="Info" culprit="rst_controller"><![CDATA["<b>ADCinterface_qsys</b>" instantiated <b>altera_reset_controller</b> "<b>rst_controller</b>"]]></message>
   </messages>
@@ -760,14 +760,14 @@
    name="ADCinterface">
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface.v"
        type="VERILOG"
        attributes="TOP_LEVEL_FILE" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_hw.tcl" />
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="ADCinterface_qsys" as="ADCinterface_0" />
@@ -793,84 +793,84 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="8" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_jtag_dc_streaming.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_jtag_dc_streaming.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_jtag_sld_node.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_jtag_sld_node.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_jtag_streaming.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_jtag_streaming.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_clock_crosser.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_clock_crosser.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_remover.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_remover.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_inserter.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_inserter.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.sdc"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.sdc"
        type="SDC"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_timing_adt.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_timing_adt.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_sc_fifo.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_sc_fifo.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_bytes_to_packets.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_bytes_to_packets.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_packets_to_bytes.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_packets_to_bytes.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_packets_to_master.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_packets_to_master.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_b2p_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_b2p_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_p2b_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_p2b_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_reset_synchronizer.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.sdc"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
   </childGeneratedFiles>
@@ -1000,106 +1000,106 @@
 };set_instance_parameter_value {master_0_master_agent} {SUPPRESS_0_BYTEEN_RSP} {0};set_instance_parameter_value {master_0_master_agent} {ID} {0};set_instance_parameter_value {master_0_master_agent} {BURSTWRAP_VALUE} {1};set_instance_parameter_value {master_0_master_agent} {CACHE_VALUE} {0};set_instance_parameter_value {master_0_master_agent} {SECURE_ACCESS_BIT} {1};set_instance_parameter_value {master_0_master_agent} {USE_READRESPONSE} {0};set_instance_parameter_value {master_0_master_agent} {USE_WRITERESPONSE} {0};add_instance {ADCinterface_0_avalon_slave_0_agent} {altera_merlin_slave_agent};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_ORI_BURST_SIZE_H} {74};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_ORI_BURST_SIZE_L} {72};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_RESPONSE_STATUS_H} {71};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_RESPONSE_STATUS_L} {70};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_BURST_SIZE_H} {53};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_BURST_SIZE_L} {51};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_TRANS_LOCK} {45};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_BEGIN_BURST} {58};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_PROTECTION_H} {65};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_PROTECTION_L} {63};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_BURSTWRAP_H} {50};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_BURSTWRAP_L} {50};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_BYTE_CNT_H} {49};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_BYTE_CNT_L} {47};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_ADDR_H} {40};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_ADDR_L} {9};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_TRANS_COMPRESSED_READ} {41};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_TRANS_POSTED} {42};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_TRANS_WRITE} {43};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_TRANS_READ} {44};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_DATA_H} {7};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_DATA_L} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_BYTEEN_H} {8};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_BYTEEN_L} {8};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_SRC_ID_H} {60};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_SRC_ID_L} {60};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_DEST_ID_H} {61};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_DEST_ID_L} {61};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PKT_SYMBOL_W} {8};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {ST_CHANNEL_W} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {ST_DATA_W} {75};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {AVS_BURSTCOUNT_SYMBOLS} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {AVS_BURSTCOUNT_W} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {AV_LINEWRAPBURSTS} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {MERLIN_PACKET_FORMAT} {ori_burst_size(74:72) response_status(71:70) cache(69:66) protection(65:63) thread_id(62) dest_id(61) src_id(60) qos(59) begin_burst(58) data_sideband(57) addr_sideband(56) burst_type(55:54) burst_size(53:51) burstwrap(50) byte_cnt(49:47) trans_exclusive(46) trans_lock(45) trans_read(44) trans_write(43) trans_posted(42) trans_compressed_read(41) addr(40:9) byteen(8) data(7:0)};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {SUPPRESS_0_BYTEEN_CMD} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {PREVENT_FIFO_OVERFLOW} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {MAX_BYTE_CNT} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {MAX_BURSTWRAP} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {ID} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {USE_READRESPONSE} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent} {USE_WRITERESPONSE} {0};add_instance {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {altera_avalon_sc_fifo};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {SYMBOLS_PER_BEAT} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {BITS_PER_SYMBOL} {76};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {FIFO_DEPTH} {2};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {CHANNEL_WIDTH} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {ERROR_WIDTH} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {USE_PACKETS} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {USE_FILL_LEVEL} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {EMPTY_LATENCY} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {USE_MEMORY_BLOCKS} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {USE_STORE_FORWARD} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {USE_ALMOST_FULL_IF} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {USE_ALMOST_EMPTY_IF} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {ENABLE_EXPLICIT_MAXCHANNEL} {false};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_agent_rsp_fifo} {EXPLICIT_MAXCHANNEL} {0};add_instance {router} {altera_merlin_router};set_instance_parameter_value {router} {DESTINATION_ID} {0 };set_instance_parameter_value {router} {CHANNEL_ID} {1 };set_instance_parameter_value {router} {TYPE_OF_TRANSACTION} {both };set_instance_parameter_value {router} {START_ADDRESS} {0x0 };set_instance_parameter_value {router} {END_ADDRESS} {0x10 };set_instance_parameter_value {router} {NON_SECURED_TAG} {1 };set_instance_parameter_value {router} {SECURED_RANGE_PAIRS} {0 };set_instance_parameter_value {router} {SECURED_RANGE_LIST} {0 };set_instance_parameter_value {router} {SPAN_OFFSET} {};set_instance_parameter_value {router} {PKT_ADDR_H} {67};set_instance_parameter_value {router} {PKT_ADDR_L} {36};set_instance_parameter_value {router} {PKT_PROTECTION_H} {92};set_instance_parameter_value {router} {PKT_PROTECTION_L} {90};set_instance_parameter_value {router} {PKT_DEST_ID_H} {88};set_instance_parameter_value {router} {PKT_DEST_ID_L} {88};set_instance_parameter_value {router} {PKT_TRANS_WRITE} {70};set_instance_parameter_value {router} {PKT_TRANS_READ} {71};set_instance_parameter_value {router} {ST_DATA_W} {102};set_instance_parameter_value {router} {ST_CHANNEL_W} {1};set_instance_parameter_value {router} {DECODER_TYPE} {0};set_instance_parameter_value {router} {DEFAULT_CHANNEL} {0};set_instance_parameter_value {router} {DEFAULT_WR_CHANNEL} {-1};set_instance_parameter_value {router} {DEFAULT_RD_CHANNEL} {-1};set_instance_parameter_value {router} {DEFAULT_DESTID} {0};set_instance_parameter_value {router} {MERLIN_PACKET_FORMAT} {ori_burst_size(101:99) response_status(98:97) cache(96:93) protection(92:90) thread_id(89) dest_id(88) src_id(87) qos(86) begin_burst(85) data_sideband(84) addr_sideband(83) burst_type(82:81) burst_size(80:78) burstwrap(77) byte_cnt(76:74) trans_exclusive(73) trans_lock(72) trans_read(71) trans_write(70) trans_posted(69) trans_compressed_read(68) addr(67:36) byteen(35:32) data(31:0)};set_instance_parameter_value {router} {MEMORY_ALIASING_DECODE} {0};add_instance {router_001} {altera_merlin_router};set_instance_parameter_value {router_001} {DESTINATION_ID} {0 };set_instance_parameter_value {router_001} {CHANNEL_ID} {1 };set_instance_parameter_value {router_001} {TYPE_OF_TRANSACTION} {both };set_instance_parameter_value {router_001} {START_ADDRESS} {0x0 };set_instance_parameter_value {router_001} {END_ADDRESS} {0x0 };set_instance_parameter_value {router_001} {NON_SECURED_TAG} {1 };set_instance_parameter_value {router_001} {SECURED_RANGE_PAIRS} {0 };set_instance_parameter_value {router_001} {SECURED_RANGE_LIST} {0 };set_instance_parameter_value {router_001} {SPAN_OFFSET} {};set_instance_parameter_value {router_001} {PKT_ADDR_H} {40};set_instance_parameter_value {router_001} {PKT_ADDR_L} {9};set_instance_parameter_value {router_001} {PKT_PROTECTION_H} {65};set_instance_parameter_value {router_001} {PKT_PROTECTION_L} {63};set_instance_parameter_value {router_001} {PKT_DEST_ID_H} {61};set_instance_parameter_value {router_001} {PKT_DEST_ID_L} {61};set_instance_parameter_value {router_001} {PKT_TRANS_WRITE} {43};set_instance_parameter_value {router_001} {PKT_TRANS_READ} {44};set_instance_parameter_value {router_001} {ST_DATA_W} {75};set_instance_parameter_value {router_001} {ST_CHANNEL_W} {1};set_instance_parameter_value {router_001} {DECODER_TYPE} {1};set_instance_parameter_value {router_001} {DEFAULT_CHANNEL} {0};set_instance_parameter_value {router_001} {DEFAULT_WR_CHANNEL} {-1};set_instance_parameter_value {router_001} {DEFAULT_RD_CHANNEL} {-1};set_instance_parameter_value {router_001} {DEFAULT_DESTID} {0};set_instance_parameter_value {router_001} {MERLIN_PACKET_FORMAT} {ori_burst_size(74:72) response_status(71:70) cache(69:66) protection(65:63) thread_id(62) dest_id(61) src_id(60) qos(59) begin_burst(58) data_sideband(57) addr_sideband(56) burst_type(55:54) burst_size(53:51) burstwrap(50) byte_cnt(49:47) trans_exclusive(46) trans_lock(45) trans_read(44) trans_write(43) trans_posted(42) trans_compressed_read(41) addr(40:9) byteen(8) data(7:0)};set_instance_parameter_value {router_001} {MEMORY_ALIASING_DECODE} {0};add_instance {ADCinterface_0_avalon_slave_0_burst_adapter} {altera_merlin_burst_adapter};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_ADDR_H} {40};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_ADDR_L} {9};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BEGIN_BURST} {58};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BYTE_CNT_H} {49};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BYTE_CNT_L} {47};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BYTEEN_H} {8};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BYTEEN_L} {8};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BURST_SIZE_H} {53};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BURST_SIZE_L} {51};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BURST_TYPE_H} {55};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BURST_TYPE_L} {54};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BURSTWRAP_H} {50};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_BURSTWRAP_L} {50};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_TRANS_COMPRESSED_READ} {41};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_TRANS_WRITE} {43};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PKT_TRANS_READ} {44};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {OUT_NARROW_SIZE} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {IN_NARROW_SIZE} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {OUT_FIXED} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {OUT_COMPLETE_WRAP} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {ST_DATA_W} {75};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {ST_CHANNEL_W} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {OUT_BYTE_CNT_H} {47};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {OUT_BURSTWRAP_H} {50};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {MERLIN_PACKET_FORMAT} {ori_burst_size(74:72) response_status(71:70) cache(69:66) protection(65:63) thread_id(62) dest_id(61) src_id(60) qos(59) begin_burst(58) data_sideband(57) addr_sideband(56) burst_type(55:54) burst_size(53:51) burstwrap(50) byte_cnt(49:47) trans_exclusive(46) trans_lock(45) trans_read(44) trans_write(43) trans_posted(42) trans_compressed_read(41) addr(40:9) byteen(8) data(7:0)};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {COMPRESSED_READ_SUPPORT} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {BYTEENABLE_SYNTHESIS} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {PIPE_INPUTS} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {NO_WRAP_SUPPORT} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {INCOMPLETE_WRAP_SUPPORT} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {BURSTWRAP_CONST_MASK} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {BURSTWRAP_CONST_VALUE} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_burst_adapter} {ADAPTER_VERSION} {13.1};add_instance {cmd_demux} {altera_merlin_demultiplexer};set_instance_parameter_value {cmd_demux} {ST_DATA_W} {102};set_instance_parameter_value {cmd_demux} {ST_CHANNEL_W} {1};set_instance_parameter_value {cmd_demux} {NUM_OUTPUTS} {1};set_instance_parameter_value {cmd_demux} {VALID_WIDTH} {1};set_instance_parameter_value {cmd_demux} {MERLIN_PACKET_FORMAT} {ori_burst_size(101:99) response_status(98:97) cache(96:93) protection(92:90) thread_id(89) dest_id(88) src_id(87) qos(86) begin_burst(85) data_sideband(84) addr_sideband(83) burst_type(82:81) burst_size(80:78) burstwrap(77) byte_cnt(76:74) trans_exclusive(73) trans_lock(72) trans_read(71) trans_write(70) trans_posted(69) trans_compressed_read(68) addr(67:36) byteen(35:32) data(31:0)};add_instance {cmd_mux} {altera_merlin_multiplexer};set_instance_parameter_value {cmd_mux} {ST_DATA_W} {102};set_instance_parameter_value {cmd_mux} {ST_CHANNEL_W} {1};set_instance_parameter_value {cmd_mux} {NUM_INPUTS} {1};set_instance_parameter_value {cmd_mux} {PIPELINE_ARB} {1};set_instance_parameter_value {cmd_mux} {USE_EXTERNAL_ARB} {0};set_instance_parameter_value {cmd_mux} {PKT_TRANS_LOCK} {72};set_instance_parameter_value {cmd_mux} {ARBITRATION_SCHEME} {round-robin};set_instance_parameter_value {cmd_mux} {ARBITRATION_SHARES} {1 };set_instance_parameter_value {cmd_mux} {MERLIN_PACKET_FORMAT} {ori_burst_size(101:99) response_status(98:97) cache(96:93) protection(92:90) thread_id(89) dest_id(88) src_id(87) qos(86) begin_burst(85) data_sideband(84) addr_sideband(83) burst_type(82:81) burst_size(80:78) burstwrap(77) byte_cnt(76:74) trans_exclusive(73) trans_lock(72) trans_read(71) trans_write(70) trans_posted(69) trans_compressed_read(68) addr(67:36) byteen(35:32) data(31:0)};add_instance {rsp_demux} {altera_merlin_demultiplexer};set_instance_parameter_value {rsp_demux} {ST_DATA_W} {102};set_instance_parameter_value {rsp_demux} {ST_CHANNEL_W} {1};set_instance_parameter_value {rsp_demux} {NUM_OUTPUTS} {1};set_instance_parameter_value {rsp_demux} {VALID_WIDTH} {1};set_instance_parameter_value {rsp_demux} {MERLIN_PACKET_FORMAT} {ori_burst_size(101:99) response_status(98:97) cache(96:93) protection(92:90) thread_id(89) dest_id(88) src_id(87) qos(86) begin_burst(85) data_sideband(84) addr_sideband(83) burst_type(82:81) burst_size(80:78) burstwrap(77) byte_cnt(76:74) trans_exclusive(73) trans_lock(72) trans_read(71) trans_write(70) trans_posted(69) trans_compressed_read(68) addr(67:36) byteen(35:32) data(31:0)};add_instance {rsp_mux} {altera_merlin_multiplexer};set_instance_parameter_value {rsp_mux} {ST_DATA_W} {102};set_instance_parameter_value {rsp_mux} {ST_CHANNEL_W} {1};set_instance_parameter_value {rsp_mux} {NUM_INPUTS} {1};set_instance_parameter_value {rsp_mux} {PIPELINE_ARB} {0};set_instance_parameter_value {rsp_mux} {USE_EXTERNAL_ARB} {0};set_instance_parameter_value {rsp_mux} {PKT_TRANS_LOCK} {72};set_instance_parameter_value {rsp_mux} {ARBITRATION_SCHEME} {no-arb};set_instance_parameter_value {rsp_mux} {ARBITRATION_SHARES} {1 };set_instance_parameter_value {rsp_mux} {MERLIN_PACKET_FORMAT} {ori_burst_size(101:99) response_status(98:97) cache(96:93) protection(92:90) thread_id(89) dest_id(88) src_id(87) qos(86) begin_burst(85) data_sideband(84) addr_sideband(83) burst_type(82:81) burst_size(80:78) burstwrap(77) byte_cnt(76:74) trans_exclusive(73) trans_lock(72) trans_read(71) trans_write(70) trans_posted(69) trans_compressed_read(68) addr(67:36) byteen(35:32) data(31:0)};add_instance {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {altera_merlin_width_adapter};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_ADDR_H} {40};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_ADDR_L} {9};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_DATA_H} {7};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_DATA_L} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_BYTEEN_H} {8};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_BYTEEN_L} {8};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_BYTE_CNT_H} {49};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_BYTE_CNT_L} {47};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_TRANS_COMPRESSED_READ} {41};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_BURSTWRAP_H} {50};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_BURSTWRAP_L} {50};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_BURST_SIZE_H} {53};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_BURST_SIZE_L} {51};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_RESPONSE_STATUS_H} {71};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_RESPONSE_STATUS_L} {70};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_TRANS_EXCLUSIVE} {46};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_BURST_TYPE_H} {55};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_BURST_TYPE_L} {54};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_ORI_BURST_SIZE_L} {72};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_PKT_ORI_BURST_SIZE_H} {74};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_ST_DATA_W} {75};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_ADDR_H} {67};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_ADDR_L} {36};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_DATA_H} {31};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_DATA_L} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_BYTEEN_H} {35};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_BYTEEN_L} {32};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_BYTE_CNT_H} {76};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_BYTE_CNT_L} {74};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_TRANS_COMPRESSED_READ} {68};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_BURST_SIZE_H} {80};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_BURST_SIZE_L} {78};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_RESPONSE_STATUS_H} {98};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_RESPONSE_STATUS_L} {97};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_TRANS_EXCLUSIVE} {73};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_BURST_TYPE_H} {82};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_BURST_TYPE_L} {81};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_ORI_BURST_SIZE_L} {99};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_PKT_ORI_BURST_SIZE_H} {101};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_ST_DATA_W} {102};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {ST_CHANNEL_W} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OPTIMIZE_FOR_RSP} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {RESPONSE_PATH} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {CONSTANT_BURST_SIZE} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {PACKING} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {IN_MERLIN_PACKET_FORMAT} {ori_burst_size(74:72) response_status(71:70) cache(69:66) protection(65:63) thread_id(62) dest_id(61) src_id(60) qos(59) begin_burst(58) data_sideband(57) addr_sideband(56) burst_type(55:54) burst_size(53:51) burstwrap(50) byte_cnt(49:47) trans_exclusive(46) trans_lock(45) trans_read(44) trans_write(43) trans_posted(42) trans_compressed_read(41) addr(40:9) byteen(8) data(7:0)};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {OUT_MERLIN_PACKET_FORMAT} {ori_burst_size(101:99) response_status(98:97) cache(96:93) protection(92:90) thread_id(89) dest_id(88) src_id(87) qos(86) begin_burst(85) data_sideband(84) addr_sideband(83) burst_type(82:81) burst_size(80:78) burstwrap(77) byte_cnt(76:74) trans_exclusive(73) trans_lock(72) trans_read(71) trans_write(70) trans_posted(69) trans_compressed_read(68) addr(67:36) byteen(35:32) data(31:0)};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {COMMAND_SIZE_W} {3};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_rsp_width_adapter} {ENABLE_ADDRESS_ALIGNMENT} {0};add_instance {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {altera_merlin_width_adapter};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_ADDR_H} {67};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_ADDR_L} {36};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_DATA_H} {31};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_DATA_L} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_BYTEEN_H} {35};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_BYTEEN_L} {32};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_BYTE_CNT_H} {76};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_BYTE_CNT_L} {74};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_TRANS_COMPRESSED_READ} {68};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_BURSTWRAP_H} {77};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_BURSTWRAP_L} {77};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_BURST_SIZE_H} {80};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_BURST_SIZE_L} {78};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_RESPONSE_STATUS_H} {98};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_RESPONSE_STATUS_L} {97};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_TRANS_EXCLUSIVE} {73};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_BURST_TYPE_H} {82};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_BURST_TYPE_L} {81};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_ORI_BURST_SIZE_L} {99};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_PKT_ORI_BURST_SIZE_H} {101};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_ST_DATA_W} {102};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_ADDR_H} {40};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_ADDR_L} {9};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_DATA_H} {7};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_DATA_L} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_BYTEEN_H} {8};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_BYTEEN_L} {8};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_BYTE_CNT_H} {49};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_BYTE_CNT_L} {47};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_TRANS_COMPRESSED_READ} {41};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_BURST_SIZE_H} {53};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_BURST_SIZE_L} {51};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_RESPONSE_STATUS_H} {71};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_RESPONSE_STATUS_L} {70};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_TRANS_EXCLUSIVE} {46};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_BURST_TYPE_H} {55};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_BURST_TYPE_L} {54};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_ORI_BURST_SIZE_L} {72};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_PKT_ORI_BURST_SIZE_H} {74};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_ST_DATA_W} {75};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {ST_CHANNEL_W} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OPTIMIZE_FOR_RSP} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {RESPONSE_PATH} {0};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {CONSTANT_BURST_SIZE} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {PACKING} {1};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {IN_MERLIN_PACKET_FORMAT} {ori_burst_size(101:99) response_status(98:97) cache(96:93) protection(92:90) thread_id(89) dest_id(88) src_id(87) qos(86) begin_burst(85) data_sideband(84) addr_sideband(83) burst_type(82:81) burst_size(80:78) burstwrap(77) byte_cnt(76:74) trans_exclusive(73) trans_lock(72) trans_read(71) trans_write(70) trans_posted(69) trans_compressed_read(68) addr(67:36) byteen(35:32) data(31:0)};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {OUT_MERLIN_PACKET_FORMAT} {ori_burst_size(74:72) response_status(71:70) cache(69:66) protection(65:63) thread_id(62) dest_id(61) src_id(60) qos(59) begin_burst(58) data_sideband(57) addr_sideband(56) burst_type(55:54) burst_size(53:51) burstwrap(50) byte_cnt(49:47) trans_exclusive(46) trans_lock(45) trans_read(44) trans_write(43) trans_posted(42) trans_compressed_read(41) addr(40:9) byteen(8) data(7:0)};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {COMMAND_SIZE_W} {3};set_instance_parameter_value {ADCinterface_0_avalon_slave_0_cmd_width_adapter} {ENABLE_ADDRESS_ALIGNMENT} {0};add_instance {master_0_clk_reset_reset_bridge} {altera_reset_bridge};set_instance_parameter_value {master_0_clk_reset_reset_bridge} {ACTIVE_LOW_RESET} {0};set_instance_parameter_value {master_0_clk_reset_reset_bridge} {SYNCHRONOUS_EDGES} {deassert};set_instance_parameter_value {master_0_clk_reset_reset_bridge} {NUM_RESET_OUTPUTS} {1};set_instance_parameter_value {master_0_clk_reset_reset_bridge} {USE_RESET_REQUEST} {0};add_instance {ADCinterface_0_reset_sink_reset_bridge} {altera_reset_bridge};set_instance_parameter_value {ADCinterface_0_reset_sink_reset_bridge} {ACTIVE_LOW_RESET} {0};set_instance_parameter_value {ADCinterface_0_reset_sink_reset_bridge} {SYNCHRONOUS_EDGES} {deassert};set_instance_parameter_value {ADCinterface_0_reset_sink_reset_bridge} {NUM_RESET_OUTPUTS} {1};set_instance_parameter_value {ADCinterface_0_reset_sink_reset_bridge} {USE_RESET_REQUEST} {0};add_instance {clk_0_clk_clock_bridge} {altera_clock_bridge};set_instance_parameter_value {clk_0_clk_clock_bridge} {EXPLICIT_CLOCK_RATE} {50000000};set_instance_parameter_value {clk_0_clk_clock_bridge} {NUM_CLOCK_OUTPUTS} {1};add_connection {master_0_master_translator.avalon_universal_master_0} {master_0_master_agent.av} {avalon};set_connection_parameter_value {master_0_master_translator.avalon_universal_master_0/master_0_master_agent.av} {arbitrationPriority} {1};set_connection_parameter_value {master_0_master_translator.avalon_universal_master_0/master_0_master_agent.av} {baseAddress} {0x0000};set_connection_parameter_value {master_0_master_translator.avalon_universal_master_0/master_0_master_agent.av} {defaultConnection} {false};add_connection {rsp_mux.src} {master_0_master_agent.rp} {avalon_streaming};preview_set_connection_tag {rsp_mux.src/master_0_master_agent.rp} {qsys_mm.response};add_connection {ADCinterface_0_avalon_slave_0_agent.m0} {ADCinterface_0_avalon_slave_0_translator.avalon_universal_slave_0} {avalon};set_connection_parameter_value {ADCinterface_0_avalon_slave_0_agent.m0/ADCinterface_0_avalon_slave_0_translator.avalon_universal_slave_0} {arbitrationPriority} {1};set_connection_parameter_value {ADCinterface_0_avalon_slave_0_agent.m0/ADCinterface_0_avalon_slave_0_translator.avalon_universal_slave_0} {baseAddress} {0x0000};set_connection_parameter_value {ADCinterface_0_avalon_slave_0_agent.m0/ADCinterface_0_avalon_slave_0_translator.avalon_universal_slave_0} {defaultConnection} {false};add_connection {ADCinterface_0_avalon_slave_0_agent.rf_source} {ADCinterface_0_avalon_slave_0_agent_rsp_fifo.in} {avalon_streaming};add_connection {ADCinterface_0_avalon_slave_0_agent_rsp_fifo.out} {ADCinterface_0_avalon_slave_0_agent.rf_sink} {avalon_streaming};add_connection {ADCinterface_0_avalon_slave_0_agent.rdata_fifo_src} {ADCinterface_0_avalon_slave_0_agent.rdata_fifo_sink} {avalon_streaming};add_connection {master_0_master_agent.cp} {router.sink} {avalon_streaming};preview_set_connection_tag {master_0_master_agent.cp/router.sink} {qsys_mm.command};add_connection {router.src} {cmd_demux.sink} {avalon_streaming};preview_set_connection_tag {router.src/cmd_demux.sink} {qsys_mm.command};add_connection {ADCinterface_0_avalon_slave_0_agent.rp} {router_001.sink} {avalon_streaming};preview_set_connection_tag {ADCinterface_0_avalon_slave_0_agent.rp/router_001.sink} {qsys_mm.response};add_connection {ADCinterface_0_avalon_slave_0_burst_adapter.source0} {ADCinterface_0_avalon_slave_0_agent.cp} {avalon_streaming};preview_set_connection_tag {ADCinterface_0_avalon_slave_0_burst_adapter.source0/ADCinterface_0_avalon_slave_0_agent.cp} {qsys_mm.command};add_connection {cmd_demux.src0} {cmd_mux.sink0} {avalon_streaming};preview_set_connection_tag {cmd_demux.src0/cmd_mux.sink0} {qsys_mm.command};add_connection {rsp_demux.src0} {rsp_mux.sink0} {avalon_streaming};preview_set_connection_tag {rsp_demux.src0/rsp_mux.sink0} {qsys_mm.response};add_connection {router_001.src} {ADCinterface_0_avalon_slave_0_rsp_width_adapter.sink} {avalon_streaming};preview_set_connection_tag {router_001.src/ADCinterface_0_avalon_slave_0_rsp_width_adapter.sink} {qsys_mm.response};add_connection {ADCinterface_0_avalon_slave_0_rsp_width_adapter.src} {rsp_demux.sink} {avalon_streaming};preview_set_connection_tag {ADCinterface_0_avalon_slave_0_rsp_width_adapter.src/rsp_demux.sink} {qsys_mm.response};add_connection {cmd_mux.src} {ADCinterface_0_avalon_slave_0_cmd_width_adapter.sink} {avalon_streaming};preview_set_connection_tag {cmd_mux.src/ADCinterface_0_avalon_slave_0_cmd_width_adapter.sink} {qsys_mm.command};add_connection {ADCinterface_0_avalon_slave_0_cmd_width_adapter.src} {ADCinterface_0_avalon_slave_0_burst_adapter.sink0} {avalon_streaming};preview_set_connection_tag {ADCinterface_0_avalon_slave_0_cmd_width_adapter.src/ADCinterface_0_avalon_slave_0_burst_adapter.sink0} {qsys_mm.command};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {master_0_master_translator.reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {ADCinterface_0_avalon_slave_0_translator.reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {master_0_master_agent.clk_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {ADCinterface_0_avalon_slave_0_agent.clk_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {ADCinterface_0_avalon_slave_0_agent_rsp_fifo.clk_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {router.clk_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {router_001.clk_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {ADCinterface_0_avalon_slave_0_burst_adapter.cr0_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {cmd_demux.clk_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {cmd_mux.clk_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {rsp_demux.clk_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {rsp_mux.clk_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {ADCinterface_0_avalon_slave_0_rsp_width_adapter.clk_reset} {reset};add_connection {ADCinterface_0_reset_sink_reset_bridge.out_reset} {ADCinterface_0_avalon_slave_0_cmd_width_adapter.clk_reset} {reset};add_connection {clk_0_clk_clock_bridge.out_clk} {master_0_master_translator.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {ADCinterface_0_avalon_slave_0_translator.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {master_0_master_agent.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {ADCinterface_0_avalon_slave_0_agent.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {ADCinterface_0_avalon_slave_0_agent_rsp_fifo.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {router.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {router_001.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {ADCinterface_0_avalon_slave_0_burst_adapter.cr0} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {cmd_demux.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {rsp_mux.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {cmd_mux.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {rsp_demux.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {ADCinterface_0_avalon_slave_0_rsp_width_adapter.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {ADCinterface_0_avalon_slave_0_cmd_width_adapter.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {master_0_clk_reset_reset_bridge.clk} {clock};add_connection {clk_0_clk_clock_bridge.out_clk} {ADCinterface_0_reset_sink_reset_bridge.clk} {clock};add_interface {clk_0_clk} {clock} {slave};set_interface_property {clk_0_clk} {EXPORT_OF} {clk_0_clk_clock_bridge.in_clk};add_interface {ADCinterface_0_reset_sink_reset_bridge_in_reset} {reset} {slave};set_interface_property {ADCinterface_0_reset_sink_reset_bridge_in_reset} {EXPORT_OF} {ADCinterface_0_reset_sink_reset_bridge.in_reset};add_interface {master_0_clk_reset_reset_bridge_in_reset} {reset} {slave};set_interface_property {master_0_clk_reset_reset_bridge_in_reset} {EXPORT_OF} {master_0_clk_reset_reset_bridge.in_reset};add_interface {master_0_master} {avalon} {slave};set_interface_property {master_0_master} {EXPORT_OF} {master_0_master_translator.avalon_anti_master_0};add_interface {ADCinterface_0_avalon_slave_0} {avalon} {master};set_interface_property {ADCinterface_0_avalon_slave_0} {EXPORT_OF} {ADCinterface_0_avalon_slave_0_translator.avalon_anti_slave_0};set_module_assignment {interconnect_id.ADCinterface_0.avalon_slave_0} {0};set_module_assignment {interconnect_id.master_0.master} {0};" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_translator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_translator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_translator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_translator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_agent.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_agent.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_agent.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_agent.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_sc_fifo.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_sc_fifo.v"
        type="VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router_001.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_new.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_new.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_incr_burst_converter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_incr_burst_converter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_wrap_burst_converter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_wrap_burst_converter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_default_burst_converter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_default_burst_converter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_demux.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_demux.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_mux.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_mux.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_rsp_mux.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_rsp_mux.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_width_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_width_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </childGeneratedFiles>
@@ -1235,21 +1235,21 @@
    <message level="Info" culprit="router_001"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_router</b> "<b>router_001</b>"]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 6 starting:altera_merlin_burst_adapter "submodules/altera_merlin_burst_adapter"</message>
    <message level="Info" culprit="ADCinterface_0_avalon_slave_0_burst_adapter"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_burst_adapter</b> "<b>ADCinterface_0_avalon_slave_0_burst_adapter</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv</b>]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v</b>]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 5 starting:altera_merlin_demultiplexer "submodules/ADCinterface_qsys_mm_interconnect_0_cmd_demux"</message>
    <message level="Info" culprit="cmd_demux"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>cmd_demux</b>"]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 4 starting:altera_merlin_multiplexer "submodules/ADCinterface_qsys_mm_interconnect_0_cmd_mux"</message>
    <message level="Info" culprit="cmd_mux"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>cmd_mux</b>"]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 2 starting:altera_merlin_multiplexer "submodules/ADCinterface_qsys_mm_interconnect_0_rsp_mux"</message>
    <message level="Info" culprit="rsp_mux"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_mux</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv</b>]]></message>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 1 starting:altera_merlin_width_adapter "submodules/altera_merlin_width_adapter"</message>
    <message
        level="Info"
        culprit="ADCinterface_0_avalon_slave_0_rsp_width_adapter"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_width_adapter</b> "<b>ADCinterface_0_avalon_slave_0_rsp_width_adapter</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv</b>]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv</b>]]></message>
   </messages>
  </entity>
  <entity
@@ -1261,15 +1261,15 @@
    name="altera_reset_controller">
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_reset_synchronizer.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.sdc"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
   </generatedFiles>
@@ -1307,43 +1307,43 @@
   <parameter name="EXPORT_JTAG" value="0" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_jtag_dc_streaming.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_jtag_dc_streaming.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_jtag_sld_node.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_jtag_sld_node.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_jtag_streaming.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_jtag_streaming.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_clock_crosser.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_clock_crosser.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_remover.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_remover.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_inserter.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_idle_inserter.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.sdc"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_jtag_interface.sdc"
        type="SDC"
        attributes="" />
   </generatedFiles>
@@ -1385,7 +1385,7 @@
   <parameter name="inUsePackets" value="false" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_timing_adt.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_timing_adt.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1411,7 +1411,7 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_sc_fifo.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_sc_fifo.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
@@ -1442,7 +1442,7 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_bytes_to_packets.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_bytes_to_packets.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
@@ -1470,7 +1470,7 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_packets_to_bytes.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_packets_to_bytes.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
@@ -1497,7 +1497,7 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_packets_to_master.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_packets_to_master.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
@@ -1536,7 +1536,7 @@
   <parameter name="inUsePackets" value="true" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_b2p_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_b2p_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1574,7 +1574,7 @@
   <parameter name="inUsePackets" value="true" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_p2b_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_master_0_p2b_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1599,7 +1599,7 @@
    name="altera_merlin_master_translator">
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_translator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_translator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1626,7 +1626,7 @@
    name="altera_merlin_slave_translator">
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_translator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_translator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1663,7 +1663,7 @@
    name="altera_merlin_master_agent">
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_agent.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_master_agent.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1690,11 +1690,11 @@
    name="altera_merlin_slave_agent">
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_agent.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_slave_agent.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1750,7 +1750,7 @@
   <parameter name="NON_SECURED_TAG" value="1" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1804,7 +1804,7 @@
   <parameter name="NON_SECURED_TAG" value="1" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router_001.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_router_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1833,43 +1833,43 @@
   <parameter name="PKT_TRANS_COMPRESSED_READ" value="41" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_new.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_adapter_new.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_incr_burst_converter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_incr_burst_converter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_wrap_burst_converter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_wrap_burst_converter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_default_burst_converter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_default_burst_converter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1885,8 +1885,8 @@
   <messages>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 6 starting:altera_merlin_burst_adapter "submodules/altera_merlin_burst_adapter"</message>
    <message level="Info" culprit="ADCinterface_0_avalon_slave_0_burst_adapter"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_burst_adapter</b> "<b>ADCinterface_0_avalon_slave_0_burst_adapter</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv</b>]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v</b>]]></message>
   </messages>
  </entity>
  <entity
@@ -1907,7 +1907,7 @@
   <parameter name="NUM_OUTPUTS" value="1" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_demux.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_demux.sv"
        type="SYSTEM_VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
@@ -1945,10 +1945,10 @@
   <parameter name="PKT_TRANS_LOCK" value="72" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_mux.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_cmd_mux.sv"
        type="SYSTEM_VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
@@ -1986,10 +1986,10 @@
   <parameter name="PKT_TRANS_LOCK" value="72" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv"
        type="SYSTEM_VERILOG" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_rsp_mux.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/ADCinterface_qsys_mm_interconnect_0_rsp_mux.sv"
        type="SYSTEM_VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
@@ -2004,7 +2004,7 @@
   <messages>
    <message level="Debug" culprit="ADCinterface_qsys">queue size: 2 starting:altera_merlin_multiplexer "submodules/ADCinterface_qsys_mm_interconnect_0_rsp_mux"</message>
    <message level="Info" culprit="rsp_mux"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_mux</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv</b>]]></message>
   </messages>
  </entity>
  <entity
@@ -2026,15 +2026,15 @@
   <parameter name="IN_PKT_ORI_BURST_SIZE_L" value="72" />
   <generatedFiles>
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_width_adapter.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_width_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
+       path="C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -2052,8 +2052,8 @@
    <message
        level="Info"
        culprit="ADCinterface_0_avalon_slave_0_rsp_width_adapter"><![CDATA["<b>mm_interconnect_0</b>" instantiated <b>altera_merlin_width_adapter</b> "<b>ADCinterface_0_avalon_slave_0_rsp_width_adapter</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv</b>]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv</b>]]></message>
   </messages>
  </entity>
 </deploy>

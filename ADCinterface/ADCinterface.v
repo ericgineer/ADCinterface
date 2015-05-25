@@ -1,5 +1,17 @@
 `timescale 1ns/1ns 
 
+// Last modified: 5/25/15
+
+//This program is free software: you can redistribute it and/or modify
+//it under the terms of the GNU General Public License as published by
+//the Free Software Foundation, either version 3 of the License, or
+//(at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+
 // This is a test module to interface to the BeScope ADC board and
 // BeMicro CV FPGA development board
 module ADCinterface(
@@ -64,27 +76,14 @@ module ADCinterface(
 		reg [7:0] led_tmp;
 		reg [7:0] adc_cha_tmp, adc_chb_tmp;
 		reg [7:0] mem_null;
-
 		
-		reg [21:0] clk_divide = 0;
-		reg clk_new = 0;
-						
-		always @(posedge DCO)
-		begin
-			clk_divide <= clk_divide + 1;
-			if (clk_divide <= 0)
-			begin
-				clk_new <= ~clk_new;
-			end
-		end
-		
-		always @(posedge DCO)
+		always @(negedge DCO)
 		begin
 			adc_cha_tmp <= ~D[7:0];
 			mem[2] <= D[7:0];
 		end
 		
-		always @(negedge DCO)
+ 		always @(posedge DCO)
 		begin
 			adc_chb_tmp <= ~D[7:0];
 			mem[3] <= D[7:0];

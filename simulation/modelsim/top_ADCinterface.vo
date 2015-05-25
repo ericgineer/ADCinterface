@@ -17,7 +17,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 14.1.0 Build 186 12/03/2014 SJ Web Edition"
 
-// DATE "05/22/2015 20:07:18"
+// DATE "05/23/2015 23:03:24"
 
 // 
 // Device: Altera 5CEFA2F23C8 Package FBGA484
@@ -21656,7 +21656,7 @@ defparam \adc_dataandclock_adc_data[6]~input .simulate_z_as = "z";
 
 // Location: FF_X13_Y7_N46
 dffeas \inst|adcinterface_0|mem[2][6] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[6]~input_o ),
 	.clrn(vcc),
@@ -21720,7 +21720,7 @@ defparam \inst|adcinterface_0|mem[1][6] .power_up = "low";
 
 // Location: FF_X12_Y8_N8
 dffeas \inst|adcinterface_0|mem[3][6] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[6]~input_o ),
 	.clrn(vcc),
@@ -23131,7 +23131,7 @@ defparam \adc_dataandclock_adc_data[5]~input .simulate_z_as = "z";
 
 // Location: FF_X13_Y9_N29
 dffeas \inst|adcinterface_0|mem[3][5] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[5]~input_o ),
 	.clrn(vcc),
@@ -23150,7 +23150,7 @@ defparam \inst|adcinterface_0|mem[3][5] .power_up = "low";
 
 // Location: FF_X13_Y9_N44
 dffeas \inst|adcinterface_0|mem[2][5] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[5]~input_o ),
 	.clrn(vcc),
@@ -24110,7 +24110,7 @@ defparam \adc_dataandclock_adc_data[3]~input .simulate_z_as = "z";
 
 // Location: FF_X13_Y7_N23
 dffeas \inst|adcinterface_0|mem[3][3] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[3]~input_o ),
 	.clrn(vcc),
@@ -24148,7 +24148,7 @@ defparam \inst|adcinterface_0|mem[0][3] .power_up = "low";
 
 // Location: FF_X13_Y7_N44
 dffeas \inst|adcinterface_0|mem[2][3] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[3]~input_o ),
 	.clrn(vcc),
@@ -25210,7 +25210,7 @@ defparam \adc_dataandclock_adc_data[4]~input .simulate_z_as = "z";
 
 // Location: FF_X13_Y7_N20
 dffeas \inst|adcinterface_0|mem[3][4] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[4]~input_o ),
 	.clrn(vcc),
@@ -25229,7 +25229,7 @@ defparam \inst|adcinterface_0|mem[3][4] .power_up = "low";
 
 // Location: FF_X13_Y7_N50
 dffeas \inst|adcinterface_0|mem[2][4] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[4]~input_o ),
 	.clrn(vcc),
@@ -26150,7 +26150,7 @@ defparam \adc_dataandclock_adc_data[7]~input .simulate_z_as = "z";
 
 // Location: FF_X12_Y8_N2
 dffeas \inst|adcinterface_0|mem[3][7] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[7]~input_o ),
 	.clrn(vcc),
@@ -26193,7 +26193,7 @@ defparam \inst|adcinterface_0|mem[2][7]~feeder .shared_arith = "off";
 
 // Location: FF_X23_Y8_N37
 dffeas \inst|adcinterface_0|mem[2][7] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|mem[2][7]~feeder_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -33018,7 +33018,7 @@ defparam \adc_dataandclock_adc_data[2]~input .simulate_z_as = "z";
 
 // Location: FF_X13_Y7_N52
 dffeas \inst|adcinterface_0|mem[2][2] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[2]~input_o ),
 	.clrn(vcc),
@@ -33037,7 +33037,7 @@ defparam \inst|adcinterface_0|mem[2][2] .power_up = "low";
 
 // Location: FF_X13_Y7_N2
 dffeas \inst|adcinterface_0|mem[3][2] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[2]~input_o ),
 	.clrn(vcc),
@@ -36014,7 +36014,7 @@ defparam \adc_dataandclock_adc_data[1]~input .simulate_z_as = "z";
 
 // Location: FF_X13_Y7_N55
 dffeas \inst|adcinterface_0|mem[2][1] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[1]~input_o ),
 	.clrn(vcc),
@@ -36033,7 +36033,7 @@ defparam \inst|adcinterface_0|mem[2][1] .power_up = "low";
 
 // Location: FF_X12_Y8_N56
 dffeas \inst|adcinterface_0|mem[3][1] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[1]~input_o ),
 	.clrn(vcc),
@@ -37258,7 +37258,7 @@ defparam \adc_dataandclock_adc_data[0]~input .simulate_z_as = "z";
 
 // Location: FF_X13_Y7_N41
 dffeas \inst|adcinterface_0|mem[2][0] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[0]~input_o ),
 	.clrn(vcc),
@@ -37320,7 +37320,7 @@ defparam \inst|adcinterface_0|mem[0][0] .power_up = "low";
 
 // Location: FF_X13_Y7_N8
 dffeas \inst|adcinterface_0|mem[3][0] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\adc_dataandclock_adc_data[0]~input_o ),
 	.clrn(vcc),
@@ -40817,7 +40817,7 @@ defparam \inst|adcinterface_0|adc_cha_tmp[7]~0 .shared_arith = "off";
 
 // Location: FF_X12_Y9_N20
 dffeas \inst|adcinterface_0|adc_cha_tmp[7] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_cha_tmp[7]~0_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -40885,7 +40885,7 @@ defparam \inst|adcinterface_0|adc_chb_tmp[7]~0 .shared_arith = "off";
 
 // Location: FF_X12_Y8_N34
 dffeas \inst|adcinterface_0|adc_chb_tmp[7] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_chb_tmp[7]~0_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41060,7 +41060,7 @@ defparam \inst|adcinterface_0|adc_chb_tmp[6]~1 .shared_arith = "off";
 
 // Location: FF_X13_Y9_N55
 dffeas \inst|adcinterface_0|adc_chb_tmp[6] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_chb_tmp[6]~1_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41103,7 +41103,7 @@ defparam \inst|adcinterface_0|adc_cha_tmp[6]~1 .shared_arith = "off";
 
 // Location: FF_X13_Y9_N2
 dffeas \inst|adcinterface_0|adc_cha_tmp[6] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_cha_tmp[6]~1_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41236,7 +41236,7 @@ defparam \inst|adcinterface_0|adc_cha_tmp[5]~2 .shared_arith = "off";
 
 // Location: FF_X13_Y9_N40
 dffeas \inst|adcinterface_0|adc_cha_tmp[5] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_cha_tmp[5]~2_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41279,7 +41279,7 @@ defparam \inst|adcinterface_0|adc_chb_tmp[5]~2 .shared_arith = "off";
 
 // Location: FF_X13_Y9_N23
 dffeas \inst|adcinterface_0|adc_chb_tmp[5] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_chb_tmp[5]~2_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41412,7 +41412,7 @@ defparam \inst|adcinterface_0|adc_cha_tmp[4]~3 .shared_arith = "off";
 
 // Location: FF_X12_Y9_N22
 dffeas \inst|adcinterface_0|adc_cha_tmp[4] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_cha_tmp[4]~3_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41455,7 +41455,7 @@ defparam \inst|adcinterface_0|adc_chb_tmp[4]~3 .shared_arith = "off";
 
 // Location: FF_X12_Y8_N58
 dffeas \inst|adcinterface_0|adc_chb_tmp[4] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(gnd),
 	.asdata(\inst|adcinterface_0|adc_chb_tmp[4]~3_combout ),
 	.clrn(vcc),
@@ -41588,7 +41588,7 @@ defparam \inst|adcinterface_0|adc_cha_tmp[3]~4 .shared_arith = "off";
 
 // Location: FF_X13_Y7_N16
 dffeas \inst|adcinterface_0|adc_cha_tmp[3] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_cha_tmp[3]~4_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41631,7 +41631,7 @@ defparam \inst|adcinterface_0|adc_chb_tmp[3]~4 .shared_arith = "off";
 
 // Location: FF_X13_Y7_N31
 dffeas \inst|adcinterface_0|adc_chb_tmp[3] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_chb_tmp[3]~4_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41764,7 +41764,7 @@ defparam \inst|adcinterface_0|adc_chb_tmp[2]~5 .shared_arith = "off";
 
 // Location: FF_X13_Y7_N28
 dffeas \inst|adcinterface_0|adc_chb_tmp[2] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_chb_tmp[2]~5_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41807,7 +41807,7 @@ defparam \inst|adcinterface_0|adc_cha_tmp[2]~5 .shared_arith = "off";
 
 // Location: FF_X13_Y7_N13
 dffeas \inst|adcinterface_0|adc_cha_tmp[2] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_cha_tmp[2]~5_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41941,7 +41941,7 @@ defparam \inst|adcinterface_0|adc_cha_tmp[1]~6 .shared_arith = "off";
 
 // Location: FF_X13_Y7_N59
 dffeas \inst|adcinterface_0|adc_cha_tmp[1] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_cha_tmp[1]~6_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -41984,7 +41984,7 @@ defparam \inst|adcinterface_0|adc_chb_tmp[1]~6 .shared_arith = "off";
 
 // Location: FF_X12_Y8_N32
 dffeas \inst|adcinterface_0|adc_chb_tmp[1] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_chb_tmp[1]~6_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -42073,7 +42073,7 @@ defparam \inst|adcinterface_0|adc_cha_tmp[0]~7 .shared_arith = "off";
 
 // Location: FF_X13_Y7_N37
 dffeas \inst|adcinterface_0|adc_cha_tmp[0] (
-	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_cha_tmp[0]~7_combout ),
 	.asdata(vcc),
 	.clrn(vcc),
@@ -42159,7 +42159,7 @@ defparam \inst|adcinterface_0|adc_chb_tmp[0]~7 .shared_arith = "off";
 
 // Location: FF_X13_Y7_N35
 dffeas \inst|adcinterface_0|adc_chb_tmp[0] (
-	.clk(!\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
+	.clk(\adc_dataandclock_adc_clk~inputCLKENA0_outclk ),
 	.d(\inst|adcinterface_0|adc_chb_tmp[0]~7_combout ),
 	.asdata(vcc),
 	.clrn(vcc),

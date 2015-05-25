@@ -1,6 +1,6 @@
 Info: Starting: Create block symbol file (.bsf)
-Info: ip-generate --project-directory=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2 --output-directory=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys --report-file=bsf:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys\ADCinterface_qsys.bsf --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CEFA2F23C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys.qsys --remove-qsys-generate-warning
-Progress: Loading ADCinterface2/ADCinterface_qsys.qsys
+Info: ip-generate --project-directory=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface --output-directory=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys --report-file=bsf:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys\ADCinterface_qsys.bsf --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CEFA2F23C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys.qsys --remove-qsys-generate-warning
+Progress: Loading ADCinterface/ADCinterface_qsys.qsys
 Progress: Reading input file
 Progress: Adding ADCinterface_0 [ADCinterface 1.0]
 Progress: Parameterizing module ADCinterface_0
@@ -16,8 +16,8 @@ Info: ip-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
 Info: Starting: Create HDL design files for synthesis
-Info: ip-generate --project-directory=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2 --output-directory=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys\synthesis --file-set=QUARTUS_SYNTH --report-file=html:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys\ADCinterface_qsys.html --report-file=sopcinfo:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys.sopcinfo --report-file=cmp:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys\ADCinterface_qsys.cmp --report-file=qip:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys\synthesis\ADCinterface_qsys.qip --report-file=svd:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys\synthesis\ADCinterface_qsys.svd --report-file=regmap:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys\synthesis\ADCinterface_qsys.regmap --report-file=xml:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys\ADCinterface_qsys.xml --report-file=debuginfo:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys\synthesis\ADCinterface_qsys.debuginfo --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CEFA2F23C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface2\ADCinterface_qsys.qsys --remove-qsys-generate-warning --language=VERILOG
-Progress: Loading ADCinterface2/ADCinterface_qsys.qsys
+Info: ip-generate --project-directory=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface --output-directory=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys\synthesis --file-set=QUARTUS_SYNTH --report-file=html:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys\ADCinterface_qsys.html --report-file=sopcinfo:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys.sopcinfo --report-file=cmp:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys\ADCinterface_qsys.cmp --report-file=qip:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys\synthesis\ADCinterface_qsys.qip --report-file=svd:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys\synthesis\ADCinterface_qsys.svd --report-file=regmap:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys\synthesis\ADCinterface_qsys.regmap --report-file=xml:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys\ADCinterface_qsys.xml --report-file=debuginfo:C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys\synthesis\ADCinterface_qsys.debuginfo --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CEFA2F23C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=C:\Users\Eric\Documents\Altera\Verilog_stuff\ADCinterface\ADCinterface_qsys.qsys --remove-qsys-generate-warning --language=VERILOG
+Progress: Loading ADCinterface/ADCinterface_qsys.qsys
 Progress: Reading input file
 Progress: Adding ADCinterface_0 [ADCinterface 1.0]
 Progress: Parameterizing module ADCinterface_0
@@ -55,15 +55,15 @@ Info: ADCinterface_0_avalon_slave_0_agent: "mm_interconnect_0" instantiated alte
 Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
 Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
 Info: ADCinterface_0_avalon_slave_0_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "ADCinterface_0_avalon_slave_0_burst_adapter"
-Info: Reusing file C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv
-Info: Reusing file C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: Reusing file C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_stage.sv
+Info: Reusing file C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v
 Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
 Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
 Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
-Info: Reusing file C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: Reusing file C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_arbitrator.sv
 Info: ADCinterface_0_avalon_slave_0_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "ADCinterface_0_avalon_slave_0_rsp_width_adapter"
-Info: Reusing file C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv
-Info: Reusing file C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface2/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: Reusing file C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/Eric/Documents/Altera/Verilog_stuff/ADCinterface/ADCinterface_qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv
 Info: ADCinterface_qsys: Done "ADCinterface_qsys" with 24 modules, 44 files
 Info: ip-generate succeeded.
 Info: Finished: Create HDL design files for synthesis
